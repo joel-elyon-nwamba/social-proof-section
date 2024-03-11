@@ -11,6 +11,8 @@ html {
   color: #512051;
   font-size: 3.5rem;
   width: 50%;
+  font-family: "League Spartan", sans-serif;
+  margin-top: 10%;
 }
 
 
@@ -26,8 +28,31 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 10%;
 }
 
 .great-product {
   font-size: 1.25rem;
+  position: relatvie;
+  font-family: "League Spartan", sans-serif;
+  width: 85%;
+  height: auto;
+  color: #927B91;
+}
+
+.star-section {
+  display: flex;
+  margin-right: 10%;
+  justify-content: space-around;
+}
+
+.star1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.p-star {
+  line-height: 1.5;
+  width: 10%;
 }
