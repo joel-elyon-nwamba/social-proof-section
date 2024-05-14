@@ -33,4 +33,8 @@ ul li {
 
 .star-container {
   display: flex;
+  gap: 10px;
+  padding: 1em;
+  background-color: #F7F2F7;
+  color: #512051;
 }
