@@ -16,25 +16,72 @@ body {
   color: #927B91;
   font-size: 1.05rem;
   width: 49%;
+  position: relative;
+  bottom: 2em;
 }
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 ul li {
   list-style: none;
 }
 
-/* .star-section {
-  display: flex;
-} */
 
-.star-container {
+.header-section {
+  position: relative;
+  left: 8em;
+}
+
+.star-section {
+  position: relative;
+  right: 8em;
+}
+.star-container-three,
+.star-container-one,
+.star-container-two {
   display: flex;
   gap: 10px;
   padding: 1em;
+  align-content: space-between;
+  justify-content: space-around;
   background-color: #F7F2F7;
   color: #512051;
 }
+
+.star-container-one {
+  margin-right: 3.45em;
+}
+.star-container-two {
+  margin-left: 1.45em;
+}
+
+.star-container-three {
+  position: relative;
+  left: 3em;
+  margin-left: 3.45em;
+}
+
+
+/* social section */
+.profile-container {
+  background-color: #512051;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-container {
+  display: flex;
+}
+
+
+
+
+
