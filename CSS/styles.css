@@ -69,12 +69,18 @@ ul li {
 /* social section */
 .profile-container {
   background-color: #512051;
+  width: 20%;
+  padding: 2em;
+  color: #fff;
+  border-radius: 5%;
+  gap: 35px;
 }
 
 .profile-section {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 35px;
 }
 
 .list-container {
