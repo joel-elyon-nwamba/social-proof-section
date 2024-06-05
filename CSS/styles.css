@@ -30,6 +30,11 @@ ul li {
   list-style: none;
 }
 
+.img-two {
+  border-radius: 100%;
+  width: 40%;
+
+}
 
 .header-section {
   position: relative;
@@ -76,6 +81,20 @@ ul li {
   gap: 35px;
 }
 
+.profile-name {
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.section-verified {
+  color: #EE69A4;
+  font-size: 1.23rem;
+}
+
+.section-comment {
+  padding-top: 2.95em;
+}
+
 .profile-section {
   display: flex;
   align-items: center;
@@ -86,6 +105,14 @@ ul li {
 .list-container {
   display: flex;
 }
+
+.sec-one {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
 
 
 
